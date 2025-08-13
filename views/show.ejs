@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Message Details</title>
+</head>
+<body>
+  <h1>Message Details</h1>
+  <div style="border: 1px solid #ccc; padding: 10px;">
+    <p><strong>Text:</strong> <%= message.text %></p>
+    <p><strong>Author:</strong> <%= message.user %></p>
+    <p><strong>Posted:</strong> <%= message.added.toLocaleString() %></p>
+  </div>
+  <a href="/">Back to all messages</a>
+</body>
+</html>
