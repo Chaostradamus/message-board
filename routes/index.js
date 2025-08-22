@@ -4,7 +4,7 @@ const router = express.Router();
 // In-memory message storage
 const messages = [
   { text: "Hi there!", user: "Amando", added: new Date() },
-  { text: "Hello World!!", user: "Charles", added: new Date() }
+  { text: "Hello World!!!", user: "Charles", added: new Date() }
 ];
 
 // Homepage - show all messages
